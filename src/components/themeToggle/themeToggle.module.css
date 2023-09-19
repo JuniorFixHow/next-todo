@@ -1,0 +1,27 @@
+.toggle{
+    background-color: inherit;
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 0.1rem 0.2rem;
+    cursor: pointer;
+}
+
+.toggle .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 1.2rem; */
+}
+
+.toggle .circle{
+    background-color: teal;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 1rem;
+    position: absolute;
+}

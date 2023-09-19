@@ -1,0 +1,89 @@
+.login{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.login .google{
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+.login .gimg{
+   object-fit: contain;
+}
+
+.login .loginbody{
+    width: 25rem;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.25);
+}
+
+.login .content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .input{
+    border: 1px solid rgba(36, 235, 241, 0.87);
+    outline: none;
+    padding: 0.2rem 0.4rem;
+    font-size: 1.2rem;
+    color: rgb(59, 59, 59);
+    border-radius: 0.3rem;
+}
+
+.login .input::placeholder{
+    color: gray;
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.login .down{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.login .goto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.login .ready{
+    color: rgb(133, 131, 131);
+}
+
+.login a{
+    color: rgb(6, 6, 235);
+    font-style: italic;
+}
+
+.login h3{
+    color: rgba(27, 154, 158, 0.87);
+}
+
+.login h4{
+    color: rgb(73, 72, 72);
+}
