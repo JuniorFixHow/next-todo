@@ -65,7 +65,7 @@ const Login = () => {
             }
             <div className={styles.down}>
                 <div className={styles.goto}>
-                    <span className={styles.ready}>Don't have an account?</span>
+                    <span className={styles.ready}>Do not have an account?</span>
                     <Link href='/register' className={styles.loginlink}>Register here</Link>
                 </div>
                 <h3>Or</h3>
