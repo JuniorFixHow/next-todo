@@ -11,10 +11,10 @@ import { ThemeContext } from '@/context/ThemeContext';
 
 
 
-export const metadata = {
-    title: "Todo",
-    description: 'Create a todo to simplify',
-  }
+// export const metadata = {
+//     title: "Todo",
+//     description: 'Create a todo to simplify',
+//   }
 
 // let todoTitle = "Todo";
 
